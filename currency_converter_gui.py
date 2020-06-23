@@ -13,7 +13,7 @@ Variable2.set('currency')
 def realtimecurrencyConverter():
     from_currency = Variable1.get()
     to_currency = Variable2.get()
-    api_key = "LGR3A4JQ3GQ3D45W"
+    api_key = "Your API KEY"
     base_url = r"https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE"
   
     main_url = base_url + "&from_currency=" + from_currency + "&to_currency=" + to_currency + "&apikey=" + api_key
